@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    border-radius: 20px 20px 0 0;
+}
+.headerRight{
+    display: flex;
+    align-items: center;
+}
+.headerElement{
+    margin: 0 10px;
+    padding: 12px;
+    cursor: pointer;
+}
+.headerTitle{
+    color: #5E5BFB;
+    font-weight: 800;
+    font-size: 20px;
+}
+.headerSignIn{
+    color:white;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* fill color in the box */
+    background-color: #5E5BFB;
+    border-radius: 10px;
+}

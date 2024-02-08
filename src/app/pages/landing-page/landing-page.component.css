@@ -1,4 +1,43 @@
 .landingPageContainer{
-    height: 100vh;
+    height: 70vh;
     background-color: #A0C6F6;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+.landingPageElement{
+    padding: 2rem;
+}
+img{
+    border-radius: 8px;
+    width: 600px;
+}
+.landingPageText{
+    padding: 4px;
+    margin: 0px;
+}
+.landingPageCaptionHead{
+    font-size: 3rem;
+}
+.landingPageCaptionSubtitle{
+    font-size: 20px;
+    font-style: italic;
+}
+.pageRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.exploreCoursesDiv{
+    padding-top:30px;
+}
+.exploreCoursesButton{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #5E5BFB;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
 }
